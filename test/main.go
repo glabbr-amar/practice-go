@@ -32,7 +32,21 @@ func (l linkedlist) Printing() {
 		fmt.Print(curr.data," ")
 		curr = curr.next
 	}
-	fmt.Println()
+	fmt.Println("done printing")
+}
+
+func (l *linkedlist) reverse(){
+	//prev := &node
+	var prev *node = nil
+	var nxt *node = nil
+	curr := l.head
+	for curr!= nil {
+		nxt = curr.next
+		curr.next = prev
+		prev = curr
+		curr = nxt
+	}
+	l.head = prev
 }
 
 func main() {
@@ -43,8 +57,8 @@ func main() {
 	li.Push(40)
 	li.Push(50)
 	li.Printing()
-
-
+	li.reverse()
+	li.Printing()
 
 }
-
+/////////////////////////////////////////////////////////////////////////////
