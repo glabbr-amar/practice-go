@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4226e3d7-c39d-4ac5-987e-574bc374c07a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/reverselinklist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-usage.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverselinklist.go" beforeDir="false" afterPath="$PROJECT_DIR$/reverselinklist.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1625467772978</updated>
       <workItem from="1625467774140" duration="504000" />
-      <workItem from="1625468637509" duration="7208000" />
+      <workItem from="1625468637509" duration="11130000" />
     </task>
     <servers />
   </component>

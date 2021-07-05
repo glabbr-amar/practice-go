@@ -1,16 +1,30 @@
 package main
 
+import "fmt"
 
 func main() {
+	r := rectangle{5,6}
+	c := circle{7}
+	s := square{4}
+	fmt.Println("area : ",r.area(), c.area(), s.area())
+	fmt.Println("perimeter : ",r.perimeter(),c.perimeter(),s.perimeter())
+
+	shapes := []shape{r,c,s}
+
+	fmt.Println("Hello Amar")
+	for _, data := range shapes {
+		//fmt.Println(data.area(), data.perimeter())
+		fmt.Println(findArea(data))
+	}
 	/////////////// code 1 ///////////////////////
-	Push(10)
-	Push(20)
-	Push(30)
-	Push(40)
-	Push(50)
-	Print()
-	Reverse()
-	Print()
+	//Push(10)
+	//Push(20)
+	//Push(30)
+	//Push(40)
+	//Push(50)
+	//Print()
+	//Reverse()
+	//Print()
 	/////////////// code 2 /////////////////////
 	//li := &LinkedList{}
 	//li.Push(10)
@@ -21,6 +35,7 @@ func main() {
 	//li.Printing()
 	//li.Reverse()
 	//li.Printing()
+	//////////////////////////////////////////////
 
 
 }
