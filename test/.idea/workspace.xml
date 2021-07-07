@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4226e3d7-c39d-4ac5-987e-574bc374c07a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interface-program1/customer-and-student.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-program1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-program2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reverse-linked-list1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reverse-linked-list1/reverse-link-list1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reverse-linked-list2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reverse-linked-list2/reverse-link-list2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variadic-function/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variadic-function/variadic-function.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton-code1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton-code1/singleton-code.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton-code2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton-code2/singleton-code.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-usage.go" beforeDir="false" afterPath="$PROJECT_DIR$/interface-program2/interface-usage.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverselinklist.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +59,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/singleton-code2" />
       <recent name="$PROJECT_DIR$/interface-program2" />
       <recent name="$PROJECT_DIR$/reverse-linked-list2" />
       <recent name="$PROJECT_DIR$/interface-program" />
       <recent name="$PROJECT_DIR$/reverse-linked-list" />
-      <recent name="$PROJECT_DIR$/interface" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build exercises/interface-program1">
@@ -148,7 +140,7 @@
       <workItem from="1625572600682" duration="1604000" />
       <workItem from="1625575782617" duration="5389000" />
       <workItem from="1625582264246" duration="1165000" />
-      <workItem from="1625631586297" duration="9017000" />
+      <workItem from="1625631586297" duration="13952000" />
     </task>
     <servers />
   </component>
