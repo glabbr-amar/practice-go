@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4226e3d7-c39d-4ac5-987e-574bc374c07a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/singleton-code1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton-code1/singleton-code.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton-code2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton-code2/singleton-code.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/closure-code/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton-code3/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton-code3/singleton-code.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state-pattern-code1/delivered.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state-pattern-code1/delivery-context.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state-pattern-code1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state-pattern-code1/ordered.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state-pattern-code1/out-for-delivery.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state-pattern-code1/shipped.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-code1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-code1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-code1/singleton-code.go" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-code1/singleton-code.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +74,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build exercises/interface-program1">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,7 +149,8 @@
       <workItem from="1625572600682" duration="1604000" />
       <workItem from="1625575782617" duration="5389000" />
       <workItem from="1625582264246" duration="1165000" />
-      <workItem from="1625631586297" duration="13952000" />
+      <workItem from="1625631586297" duration="16530000" />
+      <workItem from="1625720196681" duration="15354000" />
     </task>
     <servers />
   </component>

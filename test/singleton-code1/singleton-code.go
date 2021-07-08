@@ -13,7 +13,7 @@ var (
 	once     sync.Once
 )
 
-func GetInstance() *singleton {
+func getInstance() *singleton {
 	once.Do(func() {
 		instance = &singleton{}
 		log.Println("instance created")
