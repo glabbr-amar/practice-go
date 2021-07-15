@@ -30,9 +30,17 @@ func (d *deliveryContext) update() {
 	//will update the currentState of deliveryContext
 	fmt.Printf("current state in update : %T\n",d.currentState)
 	d.currentState.updateState(&deliveryContext{currentState: d.currentState})
+	//d.updateState(d.currentState)
 }
 
 func setCurrentState(currentState packageState) *deliveryContext {
 	fmt.Printf("current state in setCurrentState : %T\n",currentState)
 	return &deliveryContext{currentState: currentState}
 }
+
+//func (d *deliveryContext) SetCurrentState(currentState packageState){
+//	fmt.Printf("current state in setCurrentState : %T\n",currentState)
+//	d.currentState = currentState
+//	fmt.Printf("current state in setCurrentState : %T\n",d.currentState)
+//
+//}

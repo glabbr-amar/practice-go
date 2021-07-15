@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4226e3d7-c39d-4ac5-987e-574bc374c07a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dependency-injection/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state-pattern-code1/delivered.go" beforeDir="false" afterPath="$PROJECT_DIR$/state-pattern-code1/delivered.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/state-pattern-code1/delivery-context.go" beforeDir="false" afterPath="$PROJECT_DIR$/state-pattern-code1/delivery-context.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state-pattern-code1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/state-pattern-code1/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/state-pattern-code1/ordered.go" beforeDir="false" afterPath="$PROJECT_DIR$/state-pattern-code1/ordered.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/state-pattern-code1/out-for-delivery.go" beforeDir="false" afterPath="$PROJECT_DIR$/state-pattern-code1/out-for-delivery.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/state-pattern-code1/shipped.go" beforeDir="false" afterPath="$PROJECT_DIR$/state-pattern-code1/shipped.go" afterDir="false" />
@@ -68,7 +67,20 @@
       <recent name="$PROJECT_DIR$/reverse-linked-list" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build exercises/interface-program1">
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="go build exercises/interface-program1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
@@ -84,6 +96,14 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/main.go|$PROJECT_DIR$/interface-program1/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/reverse-linked-list2/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build reverselinklist.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -107,9 +127,11 @@
       <item itemvalue="Go Build.go build reverselinklist.go (1)" />
       <item itemvalue="Go Build.go build main.go main.go" />
       <item itemvalue="Go Build.go build exercises/interface-program1" />
+      <item itemvalue="Go Build.go build main.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build exercises/interface-program1" />
         <item itemvalue="Go Build.go build main.go main.go" />
         <item itemvalue="Go Build.go build reverselinklist.go (1)" />
@@ -133,7 +155,8 @@
       <workItem from="1625582264246" duration="1165000" />
       <workItem from="1625631586297" duration="16530000" />
       <workItem from="1625720196681" duration="15619000" />
-      <workItem from="1625807928164" duration="3486000" />
+      <workItem from="1625807928164" duration="9219000" />
+      <workItem from="1626332735365" duration="589000" />
     </task>
     <servers />
   </component>
